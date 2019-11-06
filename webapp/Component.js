@@ -13,7 +13,7 @@ sap.ui.define([
 		},
 
 		init: function () {
-			// call the init function of the parent
+			// call the init function of the parent //test comment
 			UIComponent.prototype.init.apply(this, arguments);
 
 			// set data model
