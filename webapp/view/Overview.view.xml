@@ -18,7 +18,6 @@
 				press=".onOpenDialog"/>
 		</headerContent>
 		<content>
-			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
 			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
 		</content>
 	</Page>
