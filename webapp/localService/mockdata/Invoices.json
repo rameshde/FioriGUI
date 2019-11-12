@@ -1,40 +1,40 @@
 [
   {
-	"ProductName": "Pineapple",
+	"ProductName": "CLS AMG 63",
 	"Quantity": 21,
-	"ExtendedPrice": 87.2000,
+	"ExtendedPrice": 87000.0000,
 	"ShipperName": "Fun Inc.",
 	"ShippedDate": "2015-04-01T00:00:00",
 	"Status": "A"
   },
   {
-	"ProductName": "Milk",
+	"ProductName": "CL500",
 	"Quantity": 4,
-	"ExtendedPrice": 9.99999,
+	"ExtendedPrice": 20000.0000,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-02-18T00:00:00",
 	"Status": "B"
   },
   {
-	"ProductName": "Canned Beans",
+	"ProductName": "S63 AMG",
 	"Quantity": 3,
-	"ExtendedPrice": 6.85000,
+	"ExtendedPrice": 160000.85000,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-03-02T00:00:00",
 	"Status": "B"
   },
   {
-	"ProductName": "Salad",
+	"ProductName": "G63 AMG",
 	"Quantity": 2,
-	"ExtendedPrice": 8.8000,
+	"ExtendedPrice": 120000.8000,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-04-12T00:00:00",
 	"Status": "C"
   },
   {
-	"ProductName": "Bread",
+	"ProductName": "C63 S AMG",
 	"Quantity": 1,
-	"ExtendedPrice": 2.71212,
+	"ExtendedPrice": 65000.0000,
 	"ShipperName": "Fun Inc.",
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "A"
