@@ -54,5 +54,61 @@
 	"ShipperName": "Brabus",
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "D"
+  },
+  {
+	"ProductName": "Mercedes-Benz G63 AMG",
+	"Quantity": 10,
+	"ExtendedPrice": 148400,
+	"ShipperName": "Benz AMG",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "D"
+  },
+  {
+	"ProductName": "Bugatti Chiron",
+	"Quantity": 1,
+	"ExtendedPrice": 2650000,
+	"ShipperName": "Bugatti",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "D"
+  },
+  {
+	"ProductName": "Bugatti Veyron",
+	"Quantity": 10,
+	"ExtendedPrice": 2300000,
+	"ShipperName": "Bugatti",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "D"
+  },
+  {
+	"ProductName": "Audi S8",
+	"Quantity": 10,
+	"ExtendedPrice": 140000,
+	"ShipperName": "Audi",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "D"
+  },
+  {
+	"ProductName": "Marcedes-Benz E63 AMG",
+	"Quantity": 10,
+	"ExtendedPrice": 110000,
+	"ShipperName": "Benz AMG",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "D"
+  },
+  {
+	"ProductName": "GLS 600 Maybach",
+	"Quantity": 10,
+	"ExtendedPrice": 150000,
+	"ShipperName": "Maybach",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "D"
+  },
+  {
+	"ProductName": "Tesla Cybertruck",
+	"Quantity": 10,
+	"ExtendedPrice": 39900,
+	"ShipperName": "Tesla",
+	"ShippedDate": "2015-01-27T00:00:00",
+	"Status": "E"
   }
 ]
