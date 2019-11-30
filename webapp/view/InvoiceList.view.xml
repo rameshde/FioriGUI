@@ -29,7 +29,7 @@
 					hAlign="End"
 					minScreenWidth="Small"
 					demandPopin="true"
-					width="5em">
+					width="6em">
 					<Text text="{i18n>columnQuantity}"/>
 				</Column>
 				<Column>
