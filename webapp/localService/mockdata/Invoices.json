@@ -45,7 +45,9 @@
 	"ExtendedPrice": 200000,
 	"ShipperName": "Audi",
 	"ShippedDate": "2015-01-27T00:00:00",
-	"Status": "D"
+	"Status": "D",
+	"Baujahr": "2010",
+	"PS": "600 PS"
   },
   {
 	"ProductName": "Mercedes-Benz 600 Pullman",

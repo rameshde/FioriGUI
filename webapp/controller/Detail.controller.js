@@ -44,6 +44,14 @@ sap.ui.define([
 			var oResourceBundle = this.getView().getModel("i18n").getResourceBundle();
 
 			MessageToast.show(oResourceBundle.getText("ratingConfirmation", [fValue]));
+		},
+		onBtnBuyCar: function (oEvent){
+			var msg = this.getView().getModel("i18n").getResourceBundle().getText("mail");
+			MessageToast.show(msg);
+		},
+		onBtnList: function (oEvent){
+			var msg = this.getView().getModel("i18n").getResourceBundle().getText("onList");
+			MessageToast.show(msg);
 		}
 	});
 });

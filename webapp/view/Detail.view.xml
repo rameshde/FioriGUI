@@ -44,9 +44,35 @@
 			</attributes>
 		</ObjectHeader>
 		<Panel
+				headerText="{i18n>technicalDetails}"
+				accessibleRole="Region">
+					<VBox>
+						<Image src="{img>/Audi_R8.jpg}" width="{/imageWidth}" />
+						<Text text="Baujahr: {invoice>Baujahr}"/>
+						<Text text="PS: {invoice>PS}"/>
+					</VBox>
+				<Button type="Accept"
+						text="{i18n>btnBuyCar}"
+						press="onBtnBuyCar"
+						ariaDescribedBy="rejectButtonDescription genericButtonDescription">
+					<layoutData>
+						<FlexItemData growFactor="1" />
+					</layoutData>
+			    </Button>
+				<Button type="Reject"
+						text="{i18n>btnList}"
+						press="onBtnList"
+						ariaDescribedBy="rejectButtonDescription genericButtonDescription">
+					<layoutData>
+						<FlexItemData growFactor="1" />
+					</layoutData>
+			    </Button>
+		</Panel>
+		<Panel
 				headerText="{i18n>ratingTitle}"
 				accessibleRole="Region">
 				<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
 		</Panel>
+		
 	</Page>
 </mvc:View>
