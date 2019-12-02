@@ -73,6 +73,5 @@
 				accessibleRole="Region">
 				<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
 		</Panel>
-		
 	</Page>
 </mvc:View>
