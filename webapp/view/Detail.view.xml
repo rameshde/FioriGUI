@@ -43,30 +43,30 @@
 					}"/>
 			</attributes>
 		</ObjectHeader>
-		<Panel
-				headerText="{i18n>technicalDetails}"
-				accessibleRole="Region">
-					<VBox>
-						<Image src="/webapp/img/{invoice>Img}" width="300px"/>
-						<Text text="Baujahr: {invoice>Baujahr}"/>
-						<Text text="PS: {invoice>PS}"/>
-					</VBox>
-				<Button type="Accept"
-						text="{i18n>btnBuyCar}"
-						press="onBtnBuyCar"
-						ariaDescribedBy="rejectButtonDescription genericButtonDescription">
-					<layoutData>
-						<FlexItemData growFactor="1" />
-					</layoutData>
-			    </Button>
-				<Button type="Reject"
-						text="{i18n>btnList}"
-						press="onBtnList"
-						ariaDescribedBy="rejectButtonDescription genericButtonDescription">
-					<layoutData>
-						<FlexItemData growFactor="1" />
-					</layoutData>
-			    </Button>
+		<Panel headerText="{i18n>technicalDetails}" accessibleRole="Region">
+			<HBox>
+				<Image src="/webapp/img/{invoice>Img}" width="300px"/>
+				<VBox class="sapUiSmallMarginBeginEnd">
+					<Text text="Baujahr: {invoice>Baujahr}"/>
+					<Text text="PS: {invoice>PS}" class="sapUiSmallMarginTop"/>
+				</VBox>
+			</HBox>
+			<Button type="Accept"
+				text="{i18n>btnBuyCar}"
+				press="onBtnBuyCar"
+				ariaDescribedBy="rejectButtonDescription genericButtonDescription">
+			<layoutData>
+				<FlexItemData growFactor="1" />
+			</layoutData>
+			</Button>
+			<Button type="Reject"
+					text="{i18n>btnList}"
+					press="onBtnList"
+					ariaDescribedBy="rejectButtonDescription genericButtonDescription">
+				<layoutData>
+					<FlexItemData growFactor="1" />
+				</layoutData>
+			</Button>
 		</Panel>
 		<Panel
 				headerText="{i18n>ratingTitle}"
