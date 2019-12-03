@@ -47,7 +47,7 @@
 				headerText="{i18n>technicalDetails}"
 				accessibleRole="Region">
 					<VBox>
-						<Image src="{img>/Audi_R8.jpg}" width="{/imageWidth}" />
+						<Image src="/webapp/img/Audi_R8.jpg" width="300px"/>
 						<Text text="Baujahr: {invoice>Baujahr}"/>
 						<Text text="PS: {invoice>PS}"/>
 					</VBox>
