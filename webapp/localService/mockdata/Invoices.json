@@ -6,6 +6,8 @@
 	"ShipperName": "Benz AMG",
 	"ShippedDate": "2015-04-01T00:00:00",
 	"Status": "A",
+	"Baujahr": "2019",
+	"PS": "435 PS",
 	"Img": "cls63amg.jpg"
   },
   {
@@ -15,6 +17,7 @@
 	"ShipperName": "Benz",
 	"ShippedDate": "2015-02-18T00:00:00",
 	"Status": "B",
+	"PS": "306 PS",
 	"Img": "cl500.jpg"
   },
   {
@@ -24,6 +27,8 @@
 	"ShipperName": "Benz AMG",
 	"ShippedDate": "2015-03-02T00:00:00",
 	"Status": "B",
+	"Baujahr": "2019",
+	"PS": "612 PS",
 	"Img": "s63amg.jpg"
   },
   {
@@ -33,7 +38,9 @@
 	"ShipperName": "Benz AMG",
 	"ShippedDate": "2015-04-12T00:00:00",
 	"Status": "C",
-	"Img": "s63amg.jpg"
+	"Baujahr": "2019",
+	"PS": "571 PS",
+	"Img": "g63amg.jpg"
   },
   {
 	"ProductName": "Mercedes-Benz C 63S AMG",
@@ -42,6 +49,8 @@
 	"ShipperName": "Benz AMG",
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "A",
+	"Baujahr": "2019",
+	"PS": "510 PS",
 	"Img": "c63samg.jpg"
   },
   {
@@ -62,15 +71,20 @@
 	"ShipperName": "Benz",
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "D",
+	"Baujahr": "1967",
+	"PS": "250 PS",
 	"Img": "pullman.jpg"
   },
   {
-	"ProductName": "Mercedes-Benz G 63 AMG",
+	"ProductName": "Mercedes-Benz SLS AMG GT",
 	"Quantity": 10,
-	"ExtendedPrice": 148400,
+	"ExtendedPrice": 189000,
 	"ShipperName": "Benz AMG",
 	"ShippedDate": "2015-01-27T00:00:00",
-	"Status": "D"
+	"Status": "D",
+	"Baujahr": "2019",
+	"PS": "591 PS",
+	"Img": "slsamg.jpg"
   },
   {
 	"ProductName": "Bugatti Chiron",
@@ -116,6 +130,8 @@
 	"ShipperName": "Maybach",
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "D",
+	"Baujahr": "2019",
+	"PS": "558 PS",
 	"Img": "maybach.jpg"
   },
   {
